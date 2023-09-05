@@ -151,6 +151,25 @@ body {
     align-items: center;
 }
 
+.creampuffs {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    justify-content: space-between;
+    padding: 50px 0 50px 0;
+}
+
+.creampuffs-image-wrapper {
+    height: 40vh;
+    aspect-ratio: 12/9;
+}
+
+.creampuffs-image-wrapper>img {
+    height: 40vh;
+    aspect-ratio: 12/9;
+    border-radius: 10px;
+}
+
 /* Contacts section styling */
 
 .footer-wrapper {
