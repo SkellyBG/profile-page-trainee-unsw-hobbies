@@ -116,6 +116,8 @@ body {
     padding: 2.5rem 0;
 
     font-size: 1.3em;
+
+    cursor: pointer;
 }
 
 .hobby-puzzling,
