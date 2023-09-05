@@ -122,8 +122,6 @@ body {
     padding: 2.5rem 0;
 
     font-size: 1.3em;
-
-    cursor: pointer;
 }
 
 .hobby-puzzling,
@@ -133,24 +131,28 @@ body {
 
 .hobby-puzzling-content,
 .hobby-baking-content,
-.hobby-board-gaming-content,
-.hobby-piano-content {
+.hobby-board-gaming-content {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem 0;
+
+    gap: 2rem;
+}
+
+.hobby-puzzling-content-text,
+.hobby-puzzling-content-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hobby-baking,
 .hobby-baking-content {
     background-color: rgb(196, 199, 1);
-}
-
-.hobby-piano,
-.hobby-piano-content {
-    background-color: rgb(5, 206, 5);
 }
 
 .hobby-board-gaming,
@@ -170,7 +172,6 @@ body {
     flex-direction: row;
     gap: 35px;
     justify-content: space-between;
-    padding: 50px 0 50px 0;
 }
 
 .creampuffs-image-wrapper {
@@ -224,4 +225,12 @@ body {
 
 .bold {
     font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.clickable {
+    cursor: pointer;
 }
