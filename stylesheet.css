@@ -35,6 +35,12 @@ body {
 
 /* Navigation bar styling */
 
+.nav-bar {
+    /* position: sticky; */
+    top: 0;
+    background-color: var(--bg-color);
+}
+
 .nav-list {
     display: flex;
     align-items: center;
@@ -84,7 +90,7 @@ body {
     justify-content: center;
 
     gap: 2rem;
-    padding: 3rem 0;
+    padding: 8.5rem 0;
 }
 
 .about-me-profile-pic>img {
