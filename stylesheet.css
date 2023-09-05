@@ -102,6 +102,23 @@ body {
 
 .about-me-title {
     font-size: 4em;
+    transition: transform 0.2s ease;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.about-me-title:hover {
+    animation: bounce 0.5s 2;
 }
 
 .about-me-profile-pic>img {
