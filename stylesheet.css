@@ -211,7 +211,7 @@ body {
 
 /* Helper style */
 .hidden {
-    width: 0%;
+    display: none;
 }
 
 .bold {
