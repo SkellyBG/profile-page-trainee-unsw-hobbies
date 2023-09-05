@@ -84,6 +84,7 @@ body {
     justify-content: center;
 
     gap: 2rem;
+    padding: 3rem 0;
 }
 
 .about-me-profile-pic>img {
@@ -106,7 +107,6 @@ body {
     align-items: center;
     justify-content: center;
 
-    border: 2px solid black;
     padding: 2.5rem 0;
 
     font-size: 1.3em;
@@ -160,6 +160,8 @@ body {
     justify-content: center;
     gap: 1rem;
     height: 10vh;
+
+    padding: 1.5rem 0;
 }
 
 .footer-contacts {
@@ -180,4 +182,13 @@ body {
 .footer-contacts a {
     text-decoration: none;
     color: inherit;
+}
+
+/* Helper style */
+.hidden {
+    width: 0%;
+}
+
+.bold {
+    font-weight: bold;
 }
